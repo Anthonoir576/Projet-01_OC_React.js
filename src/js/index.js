@@ -3,7 +3,7 @@ const Banner = () => {
     let titleH1 = "La maison jungle";
     return <h1>{ titleH1.toLocaleUpperCase() }</h1>
 
-}
+};
 
 const Cart = () => {
 
@@ -19,10 +19,10 @@ const Cart = () => {
             <li>Fleurs : { flowerPrice }€</li>
         </ul>
         Total : { monsteraPrice + ivyPrice + flowerPrice }€
-    </div>)
+    </div>);
 
-}
+};
 
 
 
-ReactDOM.render(<div><Banner /><Cart /></div>, document.getElementById('root'))
+ReactDOM.render(<div><Banner /><Cart /></div>, document.getElementById('root'));
