@@ -1,7 +1,8 @@
 
 const Banner = () => {
 
-    return <h1>La maison jungle</h1>
+    const title = "La maison jungle";
+    return <h1>{title}</h1>;
 
 };
 
