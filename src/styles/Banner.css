@@ -3,10 +3,12 @@
 	text-align: right;
 	padding: 32px;
 	border-bottom: solid 3px black;
-	display: flex;
-	justify-content: flex-end;
-	flex-direction: row;
-	align-items: center;
+}
+
+.lmj-banner-row {
+    display: flex;
+    justify-content: flex-end;   
+    align-items: center;
 }
 
 .lmj-title {
